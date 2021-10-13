@@ -1,0 +1,146 @@
+.content {
+    width: 100%;
+
+    .pageHeader {
+        padding: 0 24px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.85);
+
+        .searchIn {
+            width: 240px;
+            border-radius: 8px;
+            margin: 0 8px;
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.85);
+            margin: 0 8px;
+        }
+
+        .selectBar {
+            flex: 1;
+            background: rgba(24, 186, 121, 0.1);
+            border-radius: 4px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+        }
+
+        .exportIc {
+            width: 32px;
+            cursor: pointer;
+        }
+    }
+
+
+    .dataTable {
+        margin: 0 24px;
+
+        ::v-deep(.handleShow) {
+            font-size: 0;
+            padding: 0 !important;
+
+            // .ant-table-header-column {
+            //     display: none
+            // }
+            .ant-table-column-sorter-inner {
+                display: none;
+            }
+        }
+
+        ::v-deep(col[data-key='create_at']) {
+            width: 0 !important;
+            min-width: 0 !important
+        }
+
+        ::v-deep(col[data-key='username']) {
+            width: 0 !important;
+            min-width: 0 !important
+        }
+
+        ::v-deep(td.handleHide) {
+            font-size: 14px;
+        }
+
+        ::v-deep(tr.handleHide) {
+            font-size: 12px;
+        }
+    }
+
+    .showHandle {
+        ::v-deep(th.handleShow) {
+            font-size: 12px !important;
+            padding: 16px 24px !important;
+
+            .ant-table-column-sorter-inner {
+                display: block !important;
+            }
+        }
+
+        ::v-deep(col[data-key='create_at']) {
+            width: 200px !important;
+            min-width: 200px !important
+        }
+
+        ::v-deep(col[data-key='username']) {
+            width: 200px !important;
+            min-width: 200px !important
+        }
+
+        ::v-deep(col[data-key='handtool']) {
+            width: 0 !important;
+            min-width: 0 !important
+        }
+
+        ::v-deep(td.handleShow) {
+            font-size: 14px !important;
+            padding: 16px 24px !important;
+
+        }
+
+        ::v-deep(.handleHide) {
+            font-size: 0 !important;
+            padding: 0 !important;
+
+            * {
+                font-size: 0 !important;
+                padding: 0 !important;
+                width: 0 !important;
+            }
+
+        }
+    }
+
+}
+
+
+.btnBorder {
+    border: 1px solid #eee;
+    margin-right: 15px;
+}
+
+.actived {
+    background: #18ba79;
+    color: #fff !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+}
+
+.markActived {
+    background: #eeeeee;
+    border-radius: 8px;
+}
+
+.dataTable {
+    ::v-deep(.ant-table-body) {
+        height: calc(100vh - 137px);
+    }
+}

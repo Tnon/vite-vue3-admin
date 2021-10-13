@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "axsj"; /* Project id 1529856 */
+  src: url('iconfont.woff2?t=1629703003595') format('woff2'),
+       url('iconfont.woff?t=1629703003595') format('woff'),
+       url('iconfont.ttf?t=1629703003595') format('truetype');
+}
+
+.axsj {
+  font-family: "axsj" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ax-authorize:before {
+  content: "\e689";
+}
+
+.ax-unauthorized:before {
+  content: "\e68a";
+}
+
+.ax-configure:before {
+  content: "\e687";
+}
+
+.ax-ServerSetting:before {
+  content: "\e686";
+}
+
+.ax-message:before {
+  content: "\e688";
+}
+
+.ax-add:before {
+  content: "\e670";
+}
+
+.ax-delete:before {
+  content: "\e671";
+}
+
+.ax-record:before {
+  content: "\e672";
+}
+
+.ax-close:before {
+  content: "\e673";
+}
+
+.ax-arrow-goback:before {
+  content: "\e674";
+}
+
+.ax-edit:before {
+  content: "\e675";
+}
+
+.ax-relation:before {
+  content: "\e676";
+}
+
+.ax-view-host:before {
+  content: "\e677";
+}
+
+.ax-arrow-right:before {
+  content: "\e678";
+}
+
+.ax-search:before {
+  content: "\e679";
+}
+
+.ax-arrow-left:before {
+  content: "\e67a";
+}
+
+.ax-arrow-up:before {
+  content: "\e67b";
+}
+
+.ax-copy:before {
+  content: "\e67c";
+}
+
+.ax-drawer-right:before {
+  content: "\e67d";
+}
+
+.ax-arrow-down:before {
+  content: "\e67e";
+}
+
+.ax-download:before {
+  content: "\e67f";
+}
+
+.ax-fileter:before {
+  content: "\e680";
+}
+
+.ax-drawer-left:before {
+  content: "\e681";
+}
+
+.ax-update:before {
+  content: "\e682";
+}
+
+.ax-tips:before {
+  content: "\e683";
+}
+
+.ax-more:before {
+  content: "\e684";
+}
+
+.ax-view-property:before {
+  content: "\e685";
+}
+
+.ax-os-Eurer:before {
+  content: "\e66e";
+}
+
+.ax-os-Euleroff:before {
+  content: "\e66f";
+}
+
+.ax-os-Debainoff:before {
+  content: "\e657";
+}
+
+.ax-os-CentOsoff:before {
+  content: "\e658";
+}
+
+.ax-os-deepin:before {
+  content: "\e659";
+}
+
+.ax-os-CentOs:before {
+  content: "\e65a";
+}
+
+.ax-os-deepinoff:before {
+  content: "\e65b";
+}
+
+.ax-os-fedoraoff:before {
+  content: "\e65c";
+}
+
+.ax-os-Debain:before {
+  content: "\e65d";
+}
+
+.ax-os-NeoKylin:before {
+  content: "\e65e";
+}
+
+.ax-os-fedora:before {
+  content: "\e65f";
+}
+
+.ax-os-NeoKylinoff:before {
+  content: "\e660";
+}
+
+.ax-os-Suseoff:before {
+  content: "\e661";
+}
+
+.ax-os-RedHat:before {
+  content: "\e662";
+}
+
+.ax-os-Suse:before {
+  content: "\e663";
+}
+
+.ax-os-Linux:before {
+  content: "\e664";
+}
+
+.ax-os-RedHatoff:before {
+  content: "\e665";
+}
+
+.ax-os-Ubuntu:before {
+  content: "\e666";
+}
+
+.ax-os-Linuxoff:before {
+  content: "\e667";
+}
+
+.ax-os-UOSoff:before {
+  content: "\e668";
+}
+
+.ax-os-winoff:before {
+  content: "\e669";
+}
+
+.ax-os-Ubuntuoff:before {
+  content: "\e66a";
+}
+
+.ax-os-UOS:before {
+  content: "\e66b";
+}
+
+.ax-os-RedFlag:before {
+  content: "\e66c";
+}
+
+.ax-os-RedFlagoff:before {
+  content: "\e66d";
+}
+
+.ax-os-win:before {
+  content: "\e656";
+}
+

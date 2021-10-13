@@ -1,0 +1,122 @@
+.AttackRisktreeCon {
+    overflow: auto;
+
+    ::v-deep(li) {
+        padding: 2px 0;
+
+        .ant-tree-node-selected {
+            background: #eee;
+        }
+
+        .ant-tree-node-content-wrapper {
+            height: 40px;
+            padding: 0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        span.ant-tree-switcher,
+        span.ant-tree-iconEle {
+            height: 40px;
+            line-height: 40px;
+        }
+
+    }
+}
+
+.actived {
+    background: #eee;
+}
+
+.treeHead {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: 48px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-left: 8px;
+
+    &:hover {
+        background: #eee;
+    }
+
+    .label {
+        height: 48px;
+        line-height: 48px;
+        flex: 1;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.85);
+    }
+
+
+
+    .number {
+        height: 48px;
+        line-height: 48px;
+        flex: 1;
+        text-align: right;
+        font-size: 16px;
+        padding-right: 16px;
+        font-weight: 600;
+    }
+
+    img {
+        height: 32px;
+        width: 32px;
+    }
+}
+
+
+
+.attackTree {
+    padding: 8px;
+    height: calc(100vh - 70px);
+    overflow: auto;
+
+    ::v-deep(.danger) {
+        .number {
+            background: linear-gradient(90deg, rgba(253, 229, 232, 0) 0%, #FDE5E8 100%);
+            color: #F05064;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+
+    ::v-deep(.health) {
+        .number {
+
+            background: linear-gradient(270deg, rgba(48, 188, 132, 0.15) 0%, rgba(48, 188, 132, 0) 100%);
+            color: #18BA79;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+
+.riskTree {
+    padding: 8px;
+    height: calc(100vh - 70px);
+    overflow: auto;
+
+    ::v-deep(.danger) {
+        .number {
+
+            background: linear-gradient(270deg, rgba(242, 170, 100, 0.15) 0%, rgba(242, 170, 100, 0) 100%);
+            color: #F8A454;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+
+    ::v-deep(.health) {
+        .number {
+
+            background: linear-gradient(270deg, rgba(48, 188, 132, 0.15) 0%, rgba(48, 188, 132, 0) 100%);
+            color: #18BA79;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}

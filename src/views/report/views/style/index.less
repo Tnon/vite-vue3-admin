@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: flex-end;
+    right: 0;
+    z-index: 1;
+    top: 0;
+
+    .mark {
+        margin: 0 16px;
+    }
+}
+
+.exportIc {
+    cursor: pointer;
+}
+
+.subTable {
+    ::v-deep(.ant-table-body) {
+        height: calc(100vh - 121px);
+    }
+}
+
+.batbar {
+    margin-left: 220px;
+}
+
+.line {
+    width: 1px;
+    height: 16px;
+    background: #e1e1e1;
+    margin: 0 16px;
+}

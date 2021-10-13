@@ -1,0 +1,511 @@
+// @import 'ant-design-vue/dist/antd.dark.less';
+body {
+    overflow: hidden;
+}
+
+#nprogress {
+    .bar {
+        background: #18ba79;
+    }
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background: #fff;
+}
+
+.ant-menu-inline .ant-menu-selected::after,
+.ant-menu-inline .ant-menu-item-selected::after {
+    display: none;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: #EEEEEE;
+    font-weight: 600;
+    color: #000000;
+}
+
+.ant-layout-sider {
+    background: #fff !important;
+}
+
+.ant-layout-header {
+    height: auto !important;
+    padding: 0 !important;
+    background: #fff !important;
+}
+
+.asidemenu {
+
+    .ant-menu::before,
+    .ant-menu::after {
+        display: none;
+    }
+
+    .ant-menu-item-active {
+        color: #000000 !important;
+        background: #eee !important;
+    }
+
+    .ant-menu-item {
+        padding: 0 !important;
+        margin: 4px 8px;
+        width: 96px !important;
+        height: 48px !important;
+        line-height: 48px !important;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+        border: none;
+    }
+}
+
+
+.ant-card {
+    background: none;
+}
+
+.ant-card-body {
+    padding: 0 !important;
+}
+
+.ant-badge-status-text {
+    margin: 0 8px 0 0 !important;
+}
+
+
+.ant-table {
+    overflow: auto;
+}
+
+.ant-table-wrapper {
+    background: #FFFFFF;
+    box-shadow: 2px 0px 16px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+
+}
+
+
+.ant-badge-status-dot {
+    width: 8px;
+    height: 8px;
+}
+
+.ant-table-thead>tr>th .ant-table-header-column {
+    width: 100%;
+}
+
+.ant-table-placeholder {
+    border: none !important;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.ant-table-pagination.ant-pagination {
+    padding-right: 16px;
+}
+
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td {
+    padding: 16px 24px !important;
+}
+
+.ant-table-thead>tr>th {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    height: 55px;
+    display: table-cell;
+    white-space: nowrap;
+}
+
+.ant-table-thead>tr>td {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.boxcon {
+    padding: 16px 24px;
+}
+
+.boxconNt {
+    padding: 0 24px 16px 24px;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+    border: none !important;
+}
+
+.ant-menu-inline .ant-menu-submenu-title {
+    padding: 0 !important;
+    border-radius: 8px;
+}
+
+.treeMenu {
+    height: calc(100vh - 168px) !important;
+    overflow: auto;
+    padding: 0 8px;
+
+    .ant-menu-submenu-arrow {
+        position: absolute;
+        left: 10px;
+    }
+
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background: none;
+    }
+
+    li {
+        line-height: 40px;
+        margin: 4px 0;
+        border-radius: 8px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        background: none !important;
+    }
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-inline .ant-menu-submenu-title {
+    width: 100%;
+}
+
+.ant-popover-inner {
+    border-radius: 8px;
+}
+
+// .ant-input {
+//     border-radius: 8px;
+// }
+.ant-cascader-menu {
+    height: auto;
+}
+
+.ant-cascader-input {
+    border-radius: 8px;
+}
+
+.ant-calendar-picker-input.ant-input {
+    border-radius: 8px;
+}
+
+.advanCard {
+    width: 500px;
+
+    .ant-popover-inner-content {
+        padding: 24px;
+    }
+
+    ::v-deep(.ant-input) {
+        border-radius: 8px;
+    }
+}
+
+.treeNode {
+    min-width: 200px;
+
+    .ant-popover-inner-content {
+        padding: 8px 0;
+    }
+}
+
+.popNoPad {
+    .ant-popover-inner-content {
+        padding: 8px 0;
+    }
+
+    .noradiuBtn {
+        border-radius: 0;
+        width: 150px;
+        text-align: left;
+        height: 40px;
+    }
+}
+
+.popHasPad {
+    .ant-popover-inner-content {
+        padding: 10px 16px;
+    }
+}
+
+.modalBodyNopad {
+    .ant-modal-body {
+        padding: 5px !important;
+    }
+}
+
+.ant-select-selector {
+    border-radius: 8px !important;
+}
+
+//树 选择 start
+.treeselect {
+    width: 100%;
+
+    .ant-select-selector {
+        border-radius: 8px !important;
+        // height: 32px;
+        // overflow: hidden;
+    }
+}
+
+//树 选择 end
+.ant-btn {
+    border-radius: 8px;
+}
+
+
+//link 按钮 start
+.ant-btn-link {
+    color: unset;
+
+    &:hover {
+
+        background: #EEEEEE;
+    }
+}
+
+// .ant-btn-link:active,
+// .ant-btn-link.active {
+//     color: unset !important;
+// }
+
+// .ant-btn-link:hover,
+// .ant-btn-link:focus {
+//     color: unset !important;
+// }
+.ant-btn-link:focus {
+    color: unset !important;
+}
+
+//link 按钮 end
+.ant-input-search {
+    border-radius: 8px;
+}
+
+//模态框 header start
+.ant-modal-header {
+    border: none;
+    padding: 24px;
+
+    .ant-modal-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.85);
+    }
+
+}
+
+.nofooter {
+    .ant-modal-footer {
+        display: none;
+    }
+}
+
+//模态框 header end
+.ant-modal-body {
+    padding: 0 24px;
+}
+
+//模态框 footer start
+.ant-modal-footer {
+    border: none;
+    padding: 24px;
+
+    .ant-btn {
+        width: 88px;
+        height: 40px;
+        margin-left: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.85);
+    }
+}
+
+.ant-modal-footer button+button {
+    color: #fff !important;
+}
+
+//模态框 footer end
+
+// .ant-modal-mask {
+//     z-index: 1050;
+// }
+.ant-popover {
+    z-index: 1000 !important;
+}
+
+// 抽屉 start
+.ant-drawer-header {
+    height: 56px;
+    line-height: 56px;
+    padding: 0 24px;
+    border: none;
+
+    .ant-drawer-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.85);
+        line-height: 56px;
+
+    }
+
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+}
+
+//分组展示路径
+.groupCheckPop {
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    width: 240px;
+}
+
+// switch start
+.ant-switch-small::after {
+    width: 16px !important;
+    height: 16px !important;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.ant-switch::after {
+    width: 16px !important;
+    height: 16px !important;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.ant-switch {
+    width: 32px;
+    height: 10px;
+    min-width: unset;
+}
+
+.ant-switch-loading-icon,
+.ant-switch::after {
+    top: -4px;
+    left: -2px;
+}
+
+.ant-switch:focus {
+    box-shadow: none;
+}
+
+.ant-switch-checked {
+    background: #97E0C2;
+}
+
+.ant-switch-checked::after {
+    left: 33px !important;
+    background: #18BA79;
+}
+
+// switch end
+
+.bk_br_sd {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.04);
+}
+
+.b_r_input {
+    border-radius: 8px;
+}
+
+.tabled {
+    .ant-table-body {
+        height: 400px;
+    }
+}
+
+.popcfmcls {
+    min-width: 320px;
+}
+
+.ant-select-selection-item-content {
+    transition: all .3s;
+    padding-right: 0px;
+}
+
+.ant-select-selection-item-remove {
+    position: absolute;
+    right: 5px;
+    transition: all .3s;
+    transform: scale(0);
+}
+
+.ant-select-selection-item {
+    &:hover {
+        .ant-select-selection-item-content {
+            padding-right: 10px;
+        }
+
+        .ant-select-selection-item-remove {
+            transform: scale(1);
+        }
+    }
+
+}
+
+
+.timeLabel {
+    width: 170px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+
+.valueLabel {
+    font-size: 12px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .label {
+        color: rgba(0, 0, 0, 0.85);
+    }
+
+    .value {
+        color: #F05064;
+    }
+}
+
+
+.ant-checkbox-group-item {
+    min-width: 150px;
+}
+
+.ant-tooltip {
+    max-width: 300px;
+}
+
+.attRskType {
+    padding: 2px 8px;
+    display: inline-block;
+    background: #eee;
+    color: rgba(0, 0, 0, 0.6)
+}

@@ -1,0 +1,98 @@
+.box {
+    .logo {
+        text-align: center;
+        border-right: 1px solid #eee;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .name,
+        .version {
+            font-weight: 300;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.85);
+            line-height: 18px;
+        }
+    }
+
+    ::v-deep(.fitem) {
+        padding-left: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        .label {
+            min-width: 150px;
+        }
+
+        .ecolor {
+            color: #aaa;
+            margin-left: 16px;
+        }
+    }
+
+    .btns {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin: 16px 0;
+        padding-bottom: 16px;
+
+        .ml16 {
+            margin-left: 16px;
+        }
+    }
+
+    ::v-deep(.serverId) {
+        background: #eee;
+        padding: 24px;
+        border-top: 1px solid #ddd;
+        position: absolute;
+        top: 99%;
+        left: 0px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+
+            .copy {
+                cursor: pointer;
+                color: #18b666;
+            }
+        }
+
+        .id {
+            padding: 10px;
+            border: 1px dashed #ddd;
+            border-radius: 20px;
+        }
+    }
+
+    ::v-deep(.licen) {
+        .skicon {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        .sket {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-left: 8px;
+        }
+    }
+
+    ::v-deep(.suc) {
+        color: #18ba79;
+    }
+
+    ::v-deep(.err) {
+        color: #f05064;
+    }
+}
