@@ -1,4 +1,8 @@
 # vite-vue3-admin
+### yarn
+### yarn serve
+### yarn build
+### yarn preview
 ## 技术栈
 ### typescript
 ### vue3
